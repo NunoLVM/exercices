@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez le lion, roi de la savane : ses caractéristiques, son habitat, son alimentation et son mode de vie." />
+    <meta name="author" content="Nuno" />
+    <title>Le Lion - Roi de la Savane | Blog sur la Faune Sauvage</title>
+    <link
+      href="https://www.afecdax.ovh/ressources/dev/html/exercices/htmlstarter.css"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <picture>
+          <source srcset="images/logo.svg" />
+          <img
+            src="images/logo.svg"
+            alt="Logo de la Bibliothèque des animaux" />
+        </picture>
+      </div>
+      <nav>
+        <details open="”true”">
+          <summary>Sommaire</summary>
+          <ul>
+            <li><a href="#presentation-lion">Présentation</a></li>
+            <li><a href="#caracteristiques-lion">Caractéristiques</a></li>
+            <li><a href="#alimentation-lion">Alimentation</a></li>
+          </ul>
+        </details>
+      </nav>
+      <h1>Le Lion : Roi de la Savane</h1>
+    </header>
+    <main>
+      <article>
+        <section id="presentation-lion">
+          <h2>Présentation du Lion</h2>
+          <picture>
+            <source
+              srcset="images/lion_mobile.jpg"
+              media="(max-width: 600px)" />
+            <img
+              src="images/lion_desktop.jpg"
+              alt="Un lion adulte debout dans la savane africaine, regardant vers la gauche" />
+          </picture>
+          <p>
+            Le <strong>lion</strong> <i>(Panthera leo)</i> est un mammifère
+            carnivore de la famille des félins. Il est souvent surnommé
+            <strong>le roi des animaux</strong> en raison de sa prestance et de
+            sa position de prédateur au sommet de la chaîne alimentaire.
+          </p>
+        </section>
+        <section id="caracteristiques-lion">
+          <h2>Caractéristiques du Lion</h2>
+          <table border="1" width="20%">
+            <thead>
+              <tr>
+                <th align="left">Caractéristique</th>
+                <th align="left">Détails</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Famille</td>
+                <td>Félides</td>
+              </tr>
+              <tr>
+                <td>Poids</td>
+                <td>150 à 250 kg</td>
+              </tr>
+              <tr>
+                <td>Longévité</td>
+                <td>10 à 15 ans (sauvage), jusqu'à 25 ans (captivité)</td>
+              </tr>
+              <tr>
+                <td>Habitat</td>
+                <td>Savane africaine, quelques populations en Asie</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="alimentation-lion">
+          <h2>Alimentation</h2>
+          <p>
+            Le lion est un <strong>carnivore</strong> opportuniste qui chasse
+            principalement des <strong>herbivores</strong> tels que:
+          </p>
+          <ol type="A">
+            <li>Zèbres</li>
+            <li>Gnous</li>
+            <li>Antilopes</li>
+            <li>Buffles</li>
+          </ol>
+        </section>
+        <h2>Le saviez-vous?</h2>
+        <p>
+          Contrairement aux autres félins, les lions vivent en groupe appelé
+          <strong>pride</strong> dirigé par un mâle dominant. Ils peuvent rugir
+          si fort que leur cri est audible à plus de 8 km !
+        </p>
+      </article>
+    </main>
+    <section id="commentaires">
+      <h2>Ajouter un commentaire</h2>
+      <form>
+        <fieldset>
+          <label for="pseudonyme">Pseudonyme :</label>
+          <input
+            type="text"
+            id="pseudonyme"
+            placeholder="Indiquez votre pseudonyme"
+            name="pseudonyme"
+            required
+            minlength="3"
+            maxlength="13" />
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Indiquez votre email"
+            name="email"
+            required />
+          <label for="message">Message :</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Indiquez votre message"
+            rows="8"
+            required
+            minlength="10"
+            maxlength="200"></textarea>
+          <br />
+          <button type="submit">Ajouter mon commentaire</button>
+        </fieldset>
+      </form>
+      <h2>0 commentaires</h2>
+      <p>Aucun commentaire publié sur cet article.</p>
+    </section>
+    <footer>
+      <p>
+        © 2025 Blog sur la Faune Sauvage |
+        <a href="mentionlegales.html"><u>Mentions légales</u></a>
+      </p>
+    </footer>
+  </body>
+</html>

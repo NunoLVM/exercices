@@ -1,12 +1,3 @@
-# Répertoire d'exercices
+# Exercice : Concevoir des pages accessibles à tous : introduction à l’accessibilité web
 
-Ce dépôt a été créé pour stocker divers exercices en HTML, CSS, JavaScript, etc.  
-La branche **main** sert uniquement de référence pour indiquer que ce dépôt est destiné à des tests et à la pratique. Aucun code fonctionnel n'y est présent.
-
-## Organisation
-
-- **main :** Répertoire de base sans code implémenté.
-- **04_04_2025** Exercice 1
-
-
-*Ce dépôt sera progressivement mis à jour avec de nouveaux exercices.*
+Ce dépôt contient un exercice HTML réalisé dans le cadre de mes études en développement web. L’objectif principal était de rendre une page initialement non accessible utilisable par tous les utilisateurs, y compris ceux utilisant un clavier ou un lecteur d’écran.

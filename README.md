@@ -1,3 +1,5 @@
-# Exercice : Concevoir des pages accessibles à tous : introduction à l’accessibilité web
+# Exercice : Premiers pas avec CSS
 
-Ce dépôt contient un exercice HTML réalisé dans le cadre de mes études en développement web. L’objectif principal était de rendre une page initialement non accessible utilisable par tous les utilisateurs, y compris ceux utilisant un clavier ou un lecteur d’écran.
+Exercice 1 : réussi.
+Exercice 2 : réussi.
+Exercice 3 : non réussi — je n’ai pas réussi à aligner les éléments horizontalement.

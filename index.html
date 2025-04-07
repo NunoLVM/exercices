@@ -38,7 +38,7 @@
       </ul>
     </nav>
 
-      <div class="service">
+      <div class="service" role="region">
         <h3>Développement Web</h3>
         <p>Nous créons des sites modernes et sur-mesure.</p>
         <button aria-label="En savoir plus sur le Développement Web">
@@ -46,7 +46,7 @@
         </button>
       </div>
 
-      <div class="service">
+      <div class="service" role="region">
         <h3>SEO</h3>
         <p>Optimisation des sites pour Google.</p>
         <button aria-label="En savoir plus sur le SEO">En savoir plus</button>
@@ -62,9 +62,9 @@
             id="full-name"
             type="text"
             placeholder="Nom complet"
-            required />
+            aria-required="true" />
           <label for="email">Email:</label>
-          <input id="email" type="email" placeholder="Email" required />
+          <input id="email" type="email" placeholder="Email" aria-required="true" />
           <label for="message">Votre message:</label>
           <textarea
             id="message"

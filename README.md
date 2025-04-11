@@ -1,8 +1,12 @@
 # Exercice : Premiers pas avec CSS
 
-Exercice 1 : réussi.
-Exercice 2 : réussi.
-Exercice 3 : non réussi — je n’ai pas réussi à aligner les éléments horizontalement.
+Réalisez le CSS + CSS responsive.
 
-Fix: Exercice 3 - Classe « flex » non détectée initialement dans le HTML — suppression du sélecteur CSS. 
-Reprise complète avec intégration correcte de la classe. Résultat conforme.
+La grille doit être fluide :
+
+Plus l’écran est large, plus il y a de colonnes qui s’ajoutent.
+Plus l’écran est étroit, plus les colonnes se placent les unes en dessous des autres.
+Pour la version mobile, il y a une différence importante : les images doivent apparaître à gauche des noms des produits 
+
+Vérifiez que votre page respecte les principes d’accessibilité 
+Pensez aussi aux bonnes pratiques SEO
